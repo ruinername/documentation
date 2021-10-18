@@ -3,48 +3,48 @@
     "message": "v2.0-beta 🍰",
     "description": "The label for version current"
   },
-  "sidebar.tutorialSidebar.category.Get Started": {
+  "sidebar.practiceSidebar.category.Get Started": {
     "message": "Get Started",
-    "description": "The label for category Get Started in sidebar tutorialSidebar"
+    "description": "The label for category Get Started in sidebar practiceSidebar"
   },
-  "sidebar.tutorialSidebar.category.Tutorials": {
-    "message": "Tutorials",
-    "description": "The label for category Tutorials in sidebar tutorialSidebar"
+  "sidebar.practiceSidebar.category.Practice": {
+    "message": "Practice",
+    "description": "The label for category Practice in sidebar practiceSidebar"
   },
-  "sidebar.tutorialSidebar.category.Alternatives": {
+  "sidebar.practiceSidebar.category.Alternatives": {
     "message": "Alternatives",
-    "description": "The label for category Alternatives in sidebar tutorialSidebar"
+    "description": "The label for category Alternatives in sidebar practiceSidebar"
   },
-  "sidebar.tutorialSidebar.category.Onboard": {
+  "sidebar.practiceSidebar.category.Onboard": {
     "message": "Onboard",
-    "description": "The label for category Onboard in sidebar tutorialSidebar"
+    "description": "The label for category Onboard in sidebar practiceSidebar"
   },
-  "sidebar.tutorialSidebar.category.Concepts": {
+  "sidebar.practiceSidebar.category.Concepts": {
     "message": "Concepts",
-    "description": "The label for category Concepts in sidebar tutorialSidebar"
+    "description": "The label for category Concepts in sidebar practiceSidebar"
   },
-  "sidebar.tutorialSidebar.category.Guides & Examples": {
+  "sidebar.practiceSidebar.category.Guides & Examples": {
     "message": "Guides & Examples",
-    "description": "The label for category Guides & Examples in sidebar tutorialSidebar"
+    "description": "The label for category Guides & Examples in sidebar practiceSidebar"
   },
-  "sidebar.tutorialSidebar.category.Examples": {
+  "sidebar.practiceSidebar.category.Examples": {
     "message": "Examples",
-    "description": "The label for category Examples in sidebar tutorialSidebar"
+    "description": "The label for category Examples in sidebar practiceSidebar"
   },
-  "sidebar.tutorialSidebar.category.Handbook": {
+  "sidebar.practiceSidebar.category.Handbook": {
     "message": "Handbook",
-    "description": "The label for category Handbook in sidebar tutorialSidebar"
+    "description": "The label for category Handbook in sidebar practiceSidebar"
   },
-  "sidebar.tutorialSidebar.category.Reference": {
+  "sidebar.practiceSidebar.category.Reference": {
     "message": "Reference",
-    "description": "The label for category Reference in sidebar tutorialSidebar"
+    "description": "The label for category Reference in sidebar practiceSidebar"
   },
-  "sidebar.tutorialSidebar.category.Layer": {
+  "sidebar.practiceSidebar.category.Layer": {
     "message": "Layer",
-    "description": "The label for category Layer in sidebar tutorialSidebar"
+    "description": "The label for category Layer in sidebar practiceSidebar"
   },
-  "sidebar.tutorialSidebar.category.About": {
+  "sidebar.practiceSidebar.category.About": {
     "message": "About",
-    "description": "The label for category About in sidebar tutorialSidebar"
+    "description": "The label for category About in sidebar practiceSidebar"
   }
 }

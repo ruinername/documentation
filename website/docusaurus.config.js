@@ -5,7 +5,7 @@ const TELEGRAM = "https://t.me/feature_sliced";
 const YOUTUBE = "https://www.youtube.com/channel/UCkng_PHLatpDKPOIKfI731A";
 const TWITTER = "https://twitter.com/feature_sliced";
 const OPEN_COLLECTIVE = "https://opencollective.com/feature-sliced";
-const DEFAULT_LOCALE = "ru";
+const DEFAULT_LOCALE = "en";
 
 // Конкретные страницы нужны, т.к. отдельно секции доки не индексируются
 // FIXME: Будет исправлено позднее
@@ -48,6 +48,7 @@ const SECTIONS = {
 
 /** @type {Config["themeConfig"]["navbar"]} */
 const navbar = {
+    hideOnScroll: true,
     title: "feature-sliced",
     logo: {
         alt: "logo",
@@ -56,17 +57,41 @@ const navbar = {
     },
     items: [
         // left
+        // {
+        //     label: "Docs",
+        //     to: SECTIONS.INTRO.fullPath,
+        //     position: "left",
+        //     items: [
+        //         { label: "Getting Started", to: SECTIONS.GET_STARTED.fullPath },
+        //         { label: "Concepts", to: SECTIONS.CONCEPTS.fullPath },
+        //         { label: "Guides", to: SECTIONS.GUIDES.fullPath },
+        //         { label: "Reference", to: SECTIONS.REFERENCE.fullPath },
+        //         { label: "About", to: SECTIONS.ABOUT.fullPath },
+        //     ],
+        // },
         {
-            label: "Docs",
-            to: SECTIONS.INTRO.fullPath,
+            label: "Intro",
+            to: "/docs/intro",
+            activeBasePath: "/docs/intro",
             position: "left",
-            items: [
-                { label: "Getting Started", to: SECTIONS.GET_STARTED.fullPath },
-                { label: "Concepts", to: SECTIONS.CONCEPTS.fullPath },
-                { label: "Guides", to: SECTIONS.GUIDES.fullPath },
-                { label: "Reference", to: SECTIONS.REFERENCE.fullPath },
-                { label: "About", to: SECTIONS.ABOUT.fullPath },
-            ],
+        },
+        {
+            label: "Get Started",
+            to: "/docs/get-started/overview",
+            activeBasePath: "/docs/get-started",
+            position: "left",
+        },
+        {
+            label: "Practice",
+            to: "/docs/practice/overview",
+            activeBasePath: "/docs/practice",
+            position: "left",
+        },
+        {
+            label: "In-depth",
+            to: "/docs/in-depth/overview",
+            activeBasePath: "/docs/in-depth",
+            position: "left",
         },
         {
             label: "Examples",
@@ -309,11 +334,11 @@ module.exports = {
     },
     i18n: {
         defaultLocale: DEFAULT_LOCALE,
-        locales: ["ru", "en"],
+        locales: ["en"],
         localeConfigs: {
-            ru: {
-                label: "Русский",
-            },
+            // ru: {
+            //     label: "Русский",
+            // },
             en: {
                 label: "English (WIP)",
             },
